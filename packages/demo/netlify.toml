@@ -1,0 +1,3 @@
+[build]
+  command = "bash scripts/fetch-prebuilt.sh && pnpm run build"
+  publish = "dist"
